@@ -1,5 +1,6 @@
 # js-multilevel-searchable-checkbox
 ###### Demo
+[![https://raw.githubusercontent.com/Abilash-Abi/js-multilevel-searchable-checkbox/master/demo/img.PNG?token=AKH3QPRIVKUZQ5ISAG47UF3BOWFFM](https://raw.githubusercontent.com/Abilash-Abi/js-multilevel-searchable-checkbox/master/demo/img.PNG?token=AKH3QPRIVKUZQ5ISAG47UF3BOWFFM "https://raw.githubusercontent.com/Abilash-Abi/js-multilevel-searchable-checkbox/master/demo/img.PNG?token=AKH3QPRIVKUZQ5ISAG47UF3BOWFFM")](http://https://raw.githubusercontent.com/Abilash-Abi/js-multilevel-searchable-checkbox/master/demo/img.PNG?token=AKH3QPRIVKUZQ5ISAG47UF3BOWFFM "https://raw.githubusercontent.com/Abilash-Abi/js-multilevel-searchable-checkbox/master/demo/img.PNG?token=AKH3QPRIVKUZQ5ISAG47UF3BOWFFM")
 
 Usage
 ```javascript
@@ -41,7 +42,9 @@ eg :[
 	</script>
 </html>
 ```
-####Advanced Setup
+
+#### Advanced Setup
+
 ```javascript
 new SearchableCheckbox(data, [],
         {
@@ -64,4 +67,13 @@ new SearchableCheckbox(data, [],
     );
 ```
 
-#### Props
+#### Options
+| Name  | Type   | Default   | Note   |
+| ------------ | ------------ | ------------ | ------------ |
+|   chip|  bool | true  | If set false, then parent chip will not show   |
+| success(res)  |  Function |  () => {} | Called when click on the done button |
+| renderFooter(closeBtnId,doneBtnId)  |  Function |  default |  Enable you to render custom footer for modal |
+|  renderCheckbox(item,selected,className) | Function  | default   |  Enable you to render custom checkbox and logic | 
+|  renderHeader(searchInputId) | Function  | default   |  Custom header for modal with search input feature | |
+
+
