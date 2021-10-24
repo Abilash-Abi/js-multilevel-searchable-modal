@@ -1,6 +1,6 @@
 # js-multilevel-searchable-checkbox
 ###### Demo
-[![https://raw.githubusercontent.com/Abilash-Abi/js-multilevel-searchable-checkbox/master/demo/img.PNG?token=AKH3QPRIVKUZQ5ISAG47UF3BOWFFM](https://raw.githubusercontent.com/Abilash-Abi/js-multilevel-searchable-checkbox/master/demo/img.PNG?token=AKH3QPRIVKUZQ5ISAG47UF3BOWFFM "https://raw.githubusercontent.com/Abilash-Abi/js-multilevel-searchable-checkbox/master/demo/img.PNG?token=AKH3QPRIVKUZQ5ISAG47UF3BOWFFM")](http://https://raw.githubusercontent.com/Abilash-Abi/js-multilevel-searchable-checkbox/master/demo/img.PNG?token=AKH3QPRIVKUZQ5ISAG47UF3BOWFFM "https://raw.githubusercontent.com/Abilash-Abi/js-multilevel-searchable-checkbox/master/demo/img.PNG?token=AKH3QPRIVKUZQ5ISAG47UF3BOWFFM")
+[![https://raw.githubusercontent.com/Abilash-Abi/js-multilevel-searchable-checkbox/master/demo/img.PNG](https://raw.githubusercontent.com/Abilash-Abi/js-multilevel-searchable-checkbox/master/demo/img.PNG "https://raw.githubusercontent.com/Abilash-Abi/js-multilevel-searchable-checkbox/master/demo/img.PNG")](https://raw.githubusercontent.com/Abilash-Abi/js-multilevel-searchable-checkbox/master/demo/img.PNG "https://raw.githubusercontent.com/Abilash-Abi/js-multilevel-searchable-checkbox/master/demo/img.PNG")
 
 Usage
 ```javascript
