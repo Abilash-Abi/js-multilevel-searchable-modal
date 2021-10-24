@@ -2,7 +2,10 @@
 ###### Demo
 [![https://raw.githubusercontent.com/Abilash-Abi/js-multilevel-searchable-checkbox/master/demo/img.PNG](https://raw.githubusercontent.com/Abilash-Abi/js-multilevel-searchable-checkbox/master/demo/img.PNG "https://raw.githubusercontent.com/Abilash-Abi/js-multilevel-searchable-checkbox/master/demo/img.PNG")](https://raw.githubusercontent.com/Abilash-Abi/js-multilevel-searchable-checkbox/master/demo/img.PNG "https://raw.githubusercontent.com/Abilash-Abi/js-multilevel-searchable-checkbox/master/demo/img.PNG")
 
-Usage
+#### Installation
+Download or clone this repo and run index.html
+
+#### Usage
 ```javascript
 new SearchableCheckbox(data,selected,options)
 #data = Data to the searchable modal
