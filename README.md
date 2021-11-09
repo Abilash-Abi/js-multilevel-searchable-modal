@@ -64,7 +64,7 @@ $('#searchable').searchable(data,[]);
 | Name  | Type   | Default   | Note   |
 | ------------ | ------------ | ------------ | ------------ |
 |   chip|  bool | true  | If set false, then parent chip will not show   |
-|   type|  string | checkbox  | pass 'radio' for single select   |
+|   type|  string | checkbox  | Pass 'radio' for single select   |
 | renderFooter(closeBtnId,doneBtnId)  |  Function |  default |  Enable you to render custom footer for modal |
 |  renderCheckbox(item,selected,className) | Function  | default   |  Enable you to render custom checkbox and logic | 
 |  renderHeader(searchInputId) | Function  | default   |  Custom header for modal with search input feature | |
