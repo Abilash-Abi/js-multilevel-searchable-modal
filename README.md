@@ -14,7 +14,7 @@ Download or clone this repo and run index.html
 #### Usage
 ```javascript
 
-let date = [
+let data = [
 	{
 		name:"Beauty & Toys",
 		id:1,
