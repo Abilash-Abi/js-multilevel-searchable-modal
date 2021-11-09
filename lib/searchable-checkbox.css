@@ -36,7 +36,15 @@
 .badge-selected{
     background-color: green !important;
 }
-
+.search-radio-button{
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.search-radio-selected{
+    color:#fff !important;
+    background-color: #05b171 !important;
+}
 .wraper{
     position: absolute;
 top: 300px;
@@ -45,4 +53,9 @@ right: 0;
 display: grid;
 justify-content: center;
 
+}
+
+.ss-chip{
+    min-width: 400px;
+    height: 50px;
 }
