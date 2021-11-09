@@ -13,16 +13,15 @@ Download or clone this repo and run index.html
 
 #### Usage
 ```javascript
-new SearchableCheckbox(data,selected,options)
-#data = Data to the searchable modal
-eg :[
+
+let date = [
 	{
 		name:"Beauty & Toys",
 		id:1,
 		childs:[]
 	}
 ]
-
+$('#searchable').searchable(data,[]);
 #selected - selected checkbox ids, eg [1,2]
 #options - SearchableCheckbox configuration properties
 
