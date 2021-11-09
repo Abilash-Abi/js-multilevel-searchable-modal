@@ -36,18 +36,18 @@
 <script>
     $('#searchable').searchable(data,[]);
 
-    $('#searchable').searchable(data,[],{
-        chip:false,
-        renderFooter:(closeBtnId,doneBtnId)=>{return '<button id="'+doneBtnId+'">Done</button>'},
-                  renderCheckbox:(item,selected,className,id)=>{
-                let checked = selected ? 'checked' : '';
-                return '<input id='+id+' type="checkbox" '+checked+' value="'+item.id+'" class="'+className+'">'+item.name;
-            },
+    // $('#searchable').searchable(data,[],{
+    //     chip:false,
+    //     renderFooter:(closeBtnId,doneBtnId)=>{return '<button id="'+doneBtnId+'">Done</button>'},
+    //               renderCheckbox:(item,selected,className,id)=>{
+    //             let checked = selected ? 'checked' : '';
+    //             return '<input id='+id+' type="checkbox" '+checked+' value="'+item.id+'" class="'+className+'">'+item.name;
+    //         },
 
-            renderHeader:(searchInputId)=>{
-                return '<h3>Categories<h3><input type="text" id="'+searchInputId+'" placeholder="Search Category    "/>';
-            }
-    });
+    //         renderHeader:(searchInputId)=>{
+    //             return '<h3>Categories<h3><input type="text" id="'+searchInputId+'" placeholder="Search Category    "/>';
+    //         }
+    // });
 
     
 </script>
