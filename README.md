@@ -1,4 +1,4 @@
-# js-multilevel-searchable-checkbox
+# js-multilevel-searchable-modal
 ####  Multiple
 [![https://github.com/Abilash-Abi/js-multilevel-searchable-modal/blob/2022e08549a31b381b4488b378512ba83adb7f92/demo/checkbox.png](https://github.com/Abilash-Abi/js-multilevel-searchable-modal/blob/2022e08549a31b381b4488b378512ba83adb7f92/demo/checkbox.png "https://github.com/Abilash-Abi/js-multilevel-searchable-modal/blob/2022e08549a31b381b4488b378512ba83adb7f92/demo/checkbox.png")](https://github.com/Abilash-Abi/js-multilevel-searchable-modal/blob/2022e08549a31b381b4488b378512ba83adb7f92/demo/checkbox.png "https://github.com/Abilash-Abi/js-multilevel-searchable-modal/blob/2022e08549a31b381b4488b378512ba83adb7f92/demo/checkbox.png")
 [![https://github.com/Abilash-Abi/js-multilevel-searchable-modal/blob/2022e08549a31b381b4488b378512ba83adb7f92/demo/selected-checkbox.png](https://github.com/Abilash-Abi/js-multilevel-searchable-modal/blob/2022e08549a31b381b4488b378512ba83adb7f92/demo/selected-checkbox.png "https://github.com/Abilash-Abi/js-multilevel-searchable-modal/blob/2022e08549a31b381b4488b378512ba83adb7f92/demo/selected-checkbox.png")](https://github.com/Abilash-Abi/js-multilevel-searchable-modal/blob/2022e08549a31b381b4488b378512ba83adb7f92/demo/selected-checkbox.png "https://github.com/Abilash-Abi/js-multilevel-searchable-modal/blob/2022e08549a31b381b4488b378512ba83adb7f92/demo/selected-checkbox.png")
@@ -13,16 +13,15 @@ Download or clone this repo and run index.html
 
 #### Usage
 ```javascript
-new SearchableCheckbox(data,selected,options)
-#data = Data to the searchable modal
-eg :[
+
+let data = [
 	{
 		name:"Beauty & Toys",
 		id:1,
 		childs:[]
 	}
 ]
-
+$('#searchable').searchable(data,[]);
 #selected - selected checkbox ids, eg [1,2]
 #options - SearchableCheckbox configuration properties
 
@@ -65,7 +64,7 @@ eg :[
 | Name  | Type   | Default   | Note   |
 | ------------ | ------------ | ------------ | ------------ |
 |   chip|  bool | true  | If set false, then parent chip will not show   |
-|   type|  string | checkbox  | pass 'radio' for single select   |
+|   type|  string | checkbox  | Pass 'radio' for single select   |
 | renderFooter(closeBtnId,doneBtnId)  |  Function |  default |  Enable you to render custom footer for modal |
 |  renderCheckbox(item,selected,className) | Function  | default   |  Enable you to render custom checkbox and logic | 
 |  renderHeader(searchInputId) | Function  | default   |  Custom header for modal with search input feature | |
